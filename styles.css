@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #58b4ae;
+}
+
+.game-board {
+    margin: 5% 10%;
+    border: 1px dashed lightblue;
+    background-color: #ffe8df;
+    height: 35rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.player-1-panel, .player-2-panel {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    /* display: inline; */
+}
+
+.player-2-panel {
+    left: 50%;
+}
+
+.active {
+    background-color: #dae1e7;
+    /* position: relative; */
+}
+
+.main-score-heading {
+    text-align: center;
+    padding: 5%;
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: darkgreen;
+}
+
+.main-score {
+    text-align: center;
+    padding: 5%;
+    background-color: lightgreen;
+    margin: auto;
+    width: 50px;
+    font-size: large;
+    color: darkgreen;
+}
+
+.current-score-heading {
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
+    color: darkgreen;
+    margin-top: 2rem;
+}
+
+.current-score {
+    text-align: center;
+    padding: 5%;
+    background-color: lightgreen;
+    width: 50px;
+    margin: auto;
+    color: darkgreen;
+}
+
+.btn {
+    position: absolute;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+    border-radius: 2px;
+    font-size: medium;
+    padding: 1%;
+    width: 5rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: darkgreen;
+}
+
+.new-game {
+    width: 10rem;
+    top: 2rem;
+}
+
+.hold {
+    top: 29rem;
+}
+
+.roll {
+    top: 26rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.fa-dice {
+    z-index: 2;
+}
